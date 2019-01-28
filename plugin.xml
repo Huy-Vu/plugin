@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-fidelity-superPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>SuperPlugin</name>
+    <js-module name="SuperPlugin" src="www/SuperPlugin.js">
+        <clobbers target="superPlugin" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="SuperPlugin">
+                <param name="ios-package" value="SuperPlugin" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/SuperPlugin.swift" />
+    </platform>
+</plugin>

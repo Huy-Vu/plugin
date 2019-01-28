@@ -1,0 +1,17 @@
+{
+  "name": "com-fidelity-superPlugin",
+  "version": "0.0.1",
+  "description": "super Plugin with the power of native functiona",
+  "cordova": {
+    "id": "com-fidelity-superPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "HUY VU",
+  "license": "ISC"
+}
